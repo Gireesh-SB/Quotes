@@ -8,11 +8,10 @@ import { QuoteService } from './quote.service';
 })
 export class AppComponent {
   title = 'quotes';
-  topMessage: string;
   randomQuotes: any;
 
   constructor(private quoteService: QuoteService){
-    this.topMessage = "Don't think too much. Just do what makes you happy.";
+    
   }
   
   ngOnInit(){
