@@ -1,27 +1,36 @@
 <app-header></app-header>
 
 <main class="container">
-  <div class="p-4 p-md-5 mb-4 text-white rounded bg-header">
-    <div class="col-md-12 px-0">
-      <h1 class="display-4 fst-italic">{{topMessage}}</h1>
-    </div>
-  </div>
-  <div class="row mb-2">
-    <div class="col-md-6" *ngFor="let quote of randomQuotes">
-      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-card">
-        <div class="col p-4 d-flex flex-column position-static">
-          <p class="card-text mb-auto fs-4">{{quote.message}}</p>
-          <div class="mb-1 text-muted">
-            <span>{{quote.author}}</span>
-          </div>
+  <div class="row">
+    <div class="col s12 m4 l3" *ngFor="let quote of randomQuotes">
+      <div class="card medium">
+        <div class="card-image">
+          <img [src]="quote.image" />
         </div>
-        <div class="col-auto d-none d-lg-block">
-          <a [href]="quote.profile" target="_blank">
-            <img class="bd-placeholder-img" width="200" height="250" [src]="quote.image" /></a>
+        <div class="card-content">
+          <p>{{quote.message}}</p>
+        </div>
+        <div class="card-action">
+          <a class="blue-text accent-4" [href]="quote.profile" target="_blank">{{quote.author}}</a>
         </div>
       </div>
     </div>
   </div>
-</main>
-
+</main> 
+<!-- <main class="container">
+  <div class="row">
+    <div class="col s12 m4 l3" *ngFor="let quote of randomQuotes">
+      <div class=" card small  light-blue lighten-1">
+        <div class="card-content" style="background-image: url({{quote.image}});">
+          <p class="black-text flow-text">{{quote.message}}</p>
+        </div>
+        <div class="card-action grey lighten-4">
+          <img class="left" width="30" [src]="quote.image" />
+          <a class="right" [href]="quote.profile" target="_blank">
+            <span class="grey-text accent-4">{{quote.author}}</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main> -->
 <app-footer></app-footer>

@@ -7,7 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  topMessage: string;
+  randomQuotes: any;
+
+  constructor(){
+    this.topMessage = "Don't think too much. Just do what makes you happy.";
+  }
 
   ngOnInit(): void {
   }
