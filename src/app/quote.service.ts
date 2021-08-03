@@ -68,6 +68,30 @@ export class QuoteService {
         "message": "I have not failed. I've just found 10,000 ways that won't work.",
         "profile": "https://en.wikipedia.org/wiki/Thomas_Edison",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Edison_and_phonograph_edit1.jpg/190px-Edison_and_phonograph_edit1.jpg"
+      },
+      {
+        "author": "Walt Disney",
+        "message":"All our dreams can come true, if we have the courage to pursue them.",
+        "profile":"https://en.wikipedia.org/wiki/Walt_Disney",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/5/50/Walt_Disney_1946_%28cropped2%29.JPG"
+      },
+      {
+        "author": "Victor Hugo",
+        "message":"There is nothing more powerful in the world than the idea that came in time.",
+        "profile":"https://en.wikipedia.org/wiki/Victor_Hugo",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Victor_Hugo_by_%C3%89tienne_Carjat_1876_-_full.jpg/195px-Victor_Hugo_by_%C3%89tienne_Carjat_1876_-_full.jpg"
+      },
+      {
+        "author": "Helen Keller",
+        "message":"Never bend your head. Always hold it high. Look the world straight in the eye.",
+        "profile":"https://en.wikipedia.org/wiki/Helen_Keller",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Helen_KellerA.jpg/193px-Helen_KellerA.jpg"
+      },
+      {
+        "author": "William Shakespeare",
+        "message":"It is not in the stars to hold our destiny but in ourselves.",
+        "profile":"https://en.wikipedia.org/wiki/William_Shakespeare",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Shakespeare.jpg/187px-Shakespeare.jpg"
       }
     ];
   }
